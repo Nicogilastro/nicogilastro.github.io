@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(226, 241, 255);
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+#qr {
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+}
+
+#text {
+  padding: 0 50px 50px 50px;
+  text-align: center;
+  font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#improve {
+  font-weight: bold;
+  font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#scanqr {
+  opacity: 0.5;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: #FFFFFF;
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  padding-top: 55px;
+}
+
+
+
+
