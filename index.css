@@ -1,29 +1,30 @@
 body {
-  background-color: rgb(226, 241, 255);
+  background-color: hsl(212, 45%, 89%);
   display:flex;
   justify-content: space-around;
   padding-top: 200px;
 }
 
 #qr {
-  height: 250px;
-  width: 250px;
+  height: 275px;
+  width: 275px;
   border-radius: 20px;
 }
 
 #text {
   padding: 0 50px 50px 50px;
   text-align: center;
-  font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Dongle', sans-serif;
 }
 
 #improve {
   font-weight: bold;
-  font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Dongle', sans-serif;
+  color: hsl(218, 44%, 22%);
 }
 
 #scanqr {
-  opacity: 0.5;
+  color: hsl(220, 15%, 55%);
 }
 
 .container {
@@ -36,5 +37,5 @@ body {
   height: 380px;
   width: 300px;
   border-radius: 20px;
-  padding-top: 65px;
+  padding-top: 60px;
 }
