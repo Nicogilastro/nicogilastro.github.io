@@ -25,12 +25,12 @@ ul {
 
 }
 
-.container h2 {
+.container h1 {
   color: #ffffff;
   margin: 15px 6px 6px 0;
 }
 
-.container h2:hover {
+.container h1:hover {
   color: hsl(178, 100%, 50%);
   cursor: pointer;
 }
