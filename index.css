@@ -1,41 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Public+Sans:wght@300;400;800&display=swap');
+
 body {
-  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  background-color: hsl(217, 54%, 11%);
+  color: #ffffff;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+
+.container {
+  padding: 20px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 16px;
+
+}
+
+.container h2 {
+  color: #ffffff;
+  margin: 15px 6px 6px 0;
+}
+
+.container h2:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.container p {
+  color: hsl(215, 51%, 70%);
+  margin: 15px 6px 6px 0;
+}
+
+.container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0;
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+
+}
+
+.container .image {
+  position: relative;
+  
+}
+
+.active {
+  border-radius: 16px;
+}
+
+.container .image div {
+  position: absolute;
+  top: 0;
+  background-color: hsl(178, 100%, 50%, 50%);
+  width: 100%;
+  height: calc(100% - 4px);
+  z-index: 500;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.container .image div:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.active {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh
 }
 
-#qr {
-  height: 275px;
-  width: 275px;
-  border-radius: 20px;
+#nft {
+  border-radius: 16px;
 }
 
-#text {
-  padding: 0 50px 0px 50px;
-  text-align: center;
-  font-family: 'Dongle', sans-serif;
+.container .eth {
+  color: hsl(178, 100%, 50%);
 }
 
-#improve {
-  font-weight: bold;
-  font-family: 'Dongle', sans-serif;
-  color: hsl(218, 44%, 22%);
+.container .clock {
+  color: hsl(215, 51%, 70%);
 }
 
-#scanqr {
-  color: hsl(220, 15%, 55%);
-}
-
-.container {
+.container .avatar {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  background-color: #FFFFFF;
-  width: 300px;
-  border-radius: 20px;
-  padding-top: 1rem;
-  
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 16px;
+  gap: 10px;
+}
+
+.container .avatar img {
+  width: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+.container .avatar span {
+  color: #ffffff;
+}
+
+.container .avatar span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+@media (min-width: 500px) {
+  .container {
+      width: 350px;
+      margin: auto;
+      margin-bottom: 32px;
+  }
 }
